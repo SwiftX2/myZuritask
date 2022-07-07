@@ -170,6 +170,14 @@ footer{
         padding: 10px;
   
     }
+    .nav li:hover{
+        background: rgb(241, 179, 7);
+    }
+    .nav a:hover{
+        background: rgb(241, 179, 7);
+    
+    }
+    
 
     .top-content{
     justify-content: center;
