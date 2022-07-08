@@ -168,16 +168,16 @@ footer{
     .nav li{
         margin: 5px;
         padding: 10px;
+        text-decoration: none;
   
     }
     .nav li:hover{
         background: rgb(241, 179, 7);
     }
-    .nav a:hover{
+    /* .nav a:hover{
         background: rgb(241, 179, 7);
     
-    }
-    
+    } */
 
     .top-content{
     justify-content: center;
