@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+   background: rgba(233, 216, 235, 0.781);
+   
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8em;
+}
+.nav{
+    background:  rgba(10, 1, 20, 0.925);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+.nav a{
+    text-decoration: none;
+    
+}
+.nav li{
+    margin: 1rem;
+    padding: 1rem;
+    list-style-type: none;
+    
+}
+.nav :hover{
+    background-color:  rgb(54, 2, 65);
+    border-radius: 10px;
+}
+.nav li:hover{
+    background: rgb(241, 179, 7);
+}
+.nav a:hover{
+    background: rgb(241, 179, 7);
+
+}
+.top-content{
+    justify-content: center;
+    background: rgba(10, 1, 20, 0.925);
+    border-radius: 10px;
+    /* margin: auto; */
+    color: rgb(247, 203, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    width: 50vw;
+
+}
+.top-content img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10em;
+    margin:2em;
+    
+}
+.text-content{
+    background: rgba(2, 22, 19, 0.856);
+    padding: 1em;
+    border-radius:10px ;
+  
+}
+.text-content h1{
+    padding: 1em;
+    text-align: center;
+}
+.text-content p{
+    padding: 1em 2em;
+    text-align: center;
+    line-height: 1;
+    text-align: justify;
+}
+
+.bottom-content ul{
+    background: rgba(55, 56, 56, 0.856);
+    /* padding: 1em 10em; */
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skills li{
+    margin-bottom: 1em;
+    line-height: 1;
+}
+.skills ul{
+    display: flex;
+    
+    padding: 1em;
+    list-style-type:none;
+    line-height:1;
+    text-align: justify;
+    /* margin-bottom: 	2em; */
+    /* justify-content: space-evenly; */
+    
+    /* align-items: flex-end; */
+}
+.skill1{
+    margin: 1em;
+}
+
+.skill2{
+    margin: 1em;
+}
+
+.skill3{
+    margin: 1em;
+}
+.btn button {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    background:rgba(248, 212, 6, 0.856); ;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1em;
+    color: rgb(247, 244, 244);
+}
+button:hover{
+    background: rgb(16, 2, 27);
+    color: rgb(245, 209, 6);
+    /* width: 100%; */
+}
+footer{
+    margin: 1em;
+    align-items: center;
+    text-align: center;
+}
+@media screen and (max-width:1242px) {
+
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 1px;
+        padding: 1px;
+    }
+    .nav li{
+        margin: 5px;
+        padding: 10px;
+        text-decoration: none;
+  
+    }
+    .nav li:hover{
+        background: rgb(241, 179, 7);
+    }
+    /* .nav a:hover{
+        background: rgb(241, 179, 7);
+    
+    } */
+
+    .top-content{
+    justify-content: center;
+    background: rgba(10, 1, 20, 0.925);
+    border-radius: 10px;
+    /* margin: auto; */
+    color: rgb(247, 203, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    width: 100vw;
+
+}
+.top-content img{
+    width: 200px;
+    height: 250px;
+    border-radius: 10em;
+    margin:2em;
+    
+}
+.text-content{
+    background: rgba(2, 22, 19, 0.856);
+    padding: 1em;
+    border-radius:10px ;
+    width: 100vw;
+    /* flex-wrap: nowrap; */
+  
+}
+.text-content h1{
+    padding: 1em;
+    text-align: center;
+    font-size: 25px;
+}
+.text-content p{
+    padding: 1em 2em;
+    text-align: center;
+    line-height:1;
+    text-align: justify;
+}
+
+}
+
+@media screen and (max-width:1)
