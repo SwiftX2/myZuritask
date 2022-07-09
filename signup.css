@@ -72,7 +72,38 @@ input[type=submit]:hover{
     color:rgb(255, 217, 0);
 }
 
-@media screen and (max-width:720px) {
-    
-    
+@media screen and (max-width:640px) {
+
+    .my-form{
+    /* width: 100%; */
+    /* margin: 1em; */
+    padding: .5em 1.5em;
+    background: rgba(67, 66, 68, 0.74);
+    border-radius: 5px;
+}
+.container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 3, 31);
+    border-radius: 6px;
+    /* margin: 50px ; */
+    /* padding: 0.5em 1em;  */
+    color: rgb(243, 201, 17);
+}
+.header{
+    width: 100%;
+}
+input[type=text],[type=email],[type=password],[type=tel], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
 }
