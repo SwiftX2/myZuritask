@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom:50px ;
+    p
+}
+.container{
+    /* width: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 3, 31);
+    border-radius: 6px;
+    /* margin: 50px ; */
+    /* padding: 0.5em 1em;  */
+    color: rgb(243, 201, 17);
+}
+.header{
+    background: rgb(66, 56, 107);
+    margin: 5px;
+    width: 400px;
+    text-align: center;
+    padding: .5em .5em;
+    border-radius: 4px;
+    color: rgb(243, 201, 17);
+}
+.my-form{
+    width: 100%;
+    /* margin: 1em; */
+    padding: .5em 1.5em;
+    background: rgba(67, 66, 68, 0.74);
+    border-radius: 5px;
+}
+input[type=text],[type=email],[type=password],[type=tel], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #f7e707;
+    color: rgb(19, 3, 3);
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 12px;
+    /* margin-bottom: 12px; */
+    width: 100%;
+}
+input[type=submit]:hover{
+    background-color:rgba(67, 66, 68, 0.74);
+    color:rgb(255, 217, 0);
+}
+
+@media screen and (max-width:720px) {
+    
+    
+}
