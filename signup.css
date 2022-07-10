@@ -58,12 +58,13 @@ input[type=submit] {
     background-color: #f7e707;
     color: rgb(19, 3, 3);
     font-weight: bold;
-    padding: 12px 20px;
+    padding:  1.5em;
     border: none;
-    border-radius: 4px;
+    border-radius: 30px;
     cursor: pointer;
     float: right;
     margin-top: 12px;
+    margin-bottom: 8px;
     /* margin-bottom: 12px; */
     width: 100%;
 }
@@ -82,7 +83,7 @@ input[type=submit]:hover{
     border-radius: 5px;
 }
 .container{
-    width: 80%;
+    width: 90%;
     height:50%;
     display: flex;
     flex-direction: column;
