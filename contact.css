@@ -5,6 +5,14 @@
 }
 body{
     background: rgb(235, 230, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
 }
 .container{
     margin: auto;
@@ -74,4 +82,14 @@ textarea{
 .btn:hover{
     background: rgb(129, 124, 133);
     color: rgb(247, 223, 10);
+}
+
+@media screen and  (max-width=720px) {
+    body{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    
 }
